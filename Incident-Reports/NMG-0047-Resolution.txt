@@ -1,0 +1,14 @@
+Jane Cooper identity is in Operations OU.
+She should be in the HR OU so she will have the policy because she is an Payroll Specialist.
+Jane is in the operations users and should be in the HR users group. 
+Jane is not having access and policy that she should have because she was placed in the wrong OU and security group.Therefore, Jane
+was given access and policy that she should not have access to.
+
+Ticket Number: NGM0047
+Affected user: Jane Cooper (jcooper@NMG.com)
+Issue Reported: Unable to access HR shared resources. Desktop policies and mapped drives differ from teamwork,
+Root cause: Jane was placed in the incorrect OU and seruity group. So she did not have acess to policies and shared resources.
+Fix applied: I changed the OU and security group from operations to HR
+Verification: Confrimed both were updated to HR and had Jane log out and sign back in to make sure she had access
+Date resolved: October 24, 2026
+Resolved by: Raven English 
