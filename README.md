@@ -6,7 +6,7 @@ Northstar Medical Group (NMG) is a fictional healthcare organization whose previ
 ## Solution Overview
 I built a new Active Directory domain named NMG on a Windows Server domain controller to give the company a central, organized place to manage its users. I designed the structure around four departmental OUs: Finance, HR, IT, and Operations. For each OU, I created a matching security group (Finance-Users, HR-Users, IT-Users, and Operations-Users) and used a flat RBAC model, meaning each user belongs to one group that matches their job role, with no extra permissions. This kept access limited to what each role needs and made it easy to see who has access to what. I secured user provisioning by requiring a ticket request before creating any account, using a consistent naming convention (first initial plus last name, such as kmills), placing each user in the correct OU and security group at creation. To test the process, I simulated a ticket where a user had been placed in the wrong OU and group, then identified the mistake and corrected it.
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+(https://www.loom.com/share/726db16af6434dd899d37bef6378af44)
 
 ## Tools Used
 * Windows Server
