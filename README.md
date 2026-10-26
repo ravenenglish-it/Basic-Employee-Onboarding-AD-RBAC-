@@ -25,5 +25,5 @@ I built a new Active Directory domain named NMG on a Windows Server domain contr
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Solved a mock ticket where an user was given the incorrect access.
+* I fully documented my steps end-to-end 
